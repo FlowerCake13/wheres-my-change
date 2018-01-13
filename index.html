@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wheres My Change</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div id="container">
+		<audio id="money-sound" src="assets/flip.wav"></audio>
+		<audio id="chaching-sound" src="assets/chaching.wav"></audio>
+		<div id="counter">
+			<div id="customer">
+				<img id="customer-image" src="assets/happy.png">
+			</div>
+			<div id="table"></div>
+			<div id="change">
+				<h3 id="change-text">Change:</h3>
+				<button id="restart">Restart</button>
+				<button id="give">Give Change</button>
+			</div>
+		</div>
+		<div id="cashbox">
+			<div id="bill-20" class="bill money">
+				<h2 class="money-text">$ 20</h2>
+			</div>
+			<div id="bill-10" class="bill money">
+				<h2 class="money-text">$ 10</h2>
+			</div>
+			<div id="bill-5" class="bill money">
+				<h2 class="money-text">$ 5</h2>
+			</div>
+			<div id="bill-1" class="bill money">
+				<h2 class="money-text">$ 1</h2>
+			</div>
+			<div id="cent-25" class="coin money">
+				<h2 class="money-text">25 c</h2>
+			</div>
+			<div id="cent-10" class="coin money">
+				<h2 class="money-text">10 c</h2>
+			</div>
+			<div id="cent-5" class="coin money">
+				<h2 class="money-text">5 c</h2>
+			</div>
+			<div id="cent-1" class="coin money">
+				<h2 class="money-text">1 c</h2>
+			</div>
+		</div>
+		<div id="computer-speech" class="dialouge">
+			<h3 class="title"> Computer says:</h3>
+			<h1 id="comp-text">Welcome to the web store!</h1>
+		</div>
+		<div id="customer-speech" class="dialouge">
+			<h3 class="title">Customer says:</h3>
+			<h1 id="cust-text">Hi!</h1>
+		</div>
+	</div>
+</body>
+<script src="js/app.js"></script>
+</html>

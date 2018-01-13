@@ -1,0 +1,115 @@
+body{
+	margin: 0px;
+}
+
+h1{
+	font-size: 18px;
+}
+
+h2{
+	height: 60px;
+	width: 60px;
+	background-color: rgb(230,230,230);
+	font-size: 17px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid rgb(180,180,180);
+}
+
+h3{
+	font-size: 16px;
+}
+
+#container{
+	width: calc(100vw);
+	height: calc(100vh);
+	background-color: rgb(240,240,240);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#counter{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#customer-image{
+	border-radius: 50%;
+}
+
+#table{
+	width: 300px;
+	height: 2px;
+	background-color: rgb(120,120,120);
+	border-radius: 15%;
+}
+
+#change{
+	width: 100%;
+	height: 100%;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#cashbox{
+	width: 750px;
+	height: 180px;
+	background-color: rgb(50,50,50);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	bottom: 0px;
+	border-radius: 15%;
+	border: 10px solid rgb(20,20,20);
+}
+
+.money{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.money:hover{
+	border: 10px solid rgb(154,205,50);
+}
+
+.bill{
+	width: 80px;
+	height: 130px;
+	background-color: rgb(119,187,101);
+	border: 10px solid rgb(20,180,91);
+	border-radius: 15%;
+}
+
+.dialouge{
+	width: 400px;
+	min-height: 100px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	border-radius: 15%;
+	position: absolute;
+	top: 0px;
+}
+
+#computer-speech{
+	left: 250px;
+}
+
+#customer-speech{
+	right: 250px;
+}
